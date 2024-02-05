@@ -1,8 +1,9 @@
+import { Button } from 'antd';
 
-export default function Home() {
-  return (
-    <>
-      <h1>Hello World</h1>
-    </>
-  );
-}
+const Home = () => (
+  <div className="App">
+    <Button type="primary">Button</Button>
+  </div>
+);
+
+export default Home;
